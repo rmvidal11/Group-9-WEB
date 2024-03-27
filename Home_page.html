@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home_Cooking Buddy</title>
+    
+    <style>
+        body {
+            background-image: url("bg.png");
+            margin: auto;
+            padding: 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        nav {
+            height: 70px;
+            width: auto;
+            padding: 0px 20px;       
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333;
+            color: white;
+            display: flex;
+        }
+
+        .link-container {
+            display: flex;
+            align-items: center;
+            width: 80%;
+        }
+
+        .navlink {
+            margin: 0px 20px;
+            padding: 9px 30px;
+            font-size: 20px;
+            font-family: 'Calibre', sans-serif;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+
+        .navlink:hover {
+            margin: 0px 20px;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+        }
+
+        .home{
+            color: black;
+            background-color:  white;
+            border-radius: 10px;
+
+        }
+
+        .home:hover {
+            border-radius: 10px;
+            color: rgb(130, 150, 154);
+            background-color: white;
+        }
+
+        .logo {
+            margin: 10px;
+            margin-bottom: -30px;
+            width: 100px;
+            height: 90px;
+            margin-right: 10px;
+            border-radius: 50%;
+            border: 5px solid rgb(215, 189, 177);
+        }
+
+        .logo-text {
+            margin: auto;
+            padding-left: 30%;
+            font-size: 27px;
+            font-family: fantasy;
+            font-weight: 200px;
+
+        }
+
+        .midtext-container{
+            padding-top: 30px;
+            font-family: Poppins, sans-serif;
+            flex-direction: column;
+            text-align: center;
+            height: 210px;
+        }
+
+        .greeting{
+            font-size: 120px;
+            font-family: Verdana, Tahoma, sans-serif;
+            font-weight: 700;
+        }
+
+        .slogan{
+            padding-top: 5px;
+            font-family: Verdana, Tahoma, sans-serif;
+            font-size: 35px;
+        }
+
+        .button-container{
+            padding-top: 5px;
+            text-align: center;
+
+        }
+        button{
+            font-size: 30px;
+            height: 60px;
+            width: 280px;
+            border-radius: 36px;
+            color: #D7BDB1;
+            background-color: black;
+            font-weight: bold;
+            align-items: center;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button:hover{
+            color: black;
+            background-color: white; 
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="link-container">
+            <a class="navlink home" href="Home_page.html">Home</a>
+            <a class="navlink generate" href="Generate_page.html">Generate</a>
+            <a class="navlink contact" href="Contact_page.html">Contact</a>
+        </div>
+        <span class="logo-text">Cooking<br>Buddy</span>
+        <img class="logo" src="logo.png" alt="Avatar">
+    </nav>
+
+        <div class="midtext-container">
+            <div class="greeting">Hello’ Buddy</div>
+            <div class="slogan">Explore Endless Dishes With Us Your Recipe Companion</div>
+        </div>
+
+        <div class="button-container">
+            <a href="Generate_page.html">
+                <button class="button">Let’s Start</button>
+            </a>
+        </di>
+ 
+
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate_Cooking Buddy</title>
+    
+    <style>
+        body{
+            margin: auto;
+            height: 2000px;
+            background-color: rgb(215, 189, 177);
+        }
+            
+        nav {
+            height: 70px;
+            width: auto;
+            padding: 0px 20px;       
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333;
+            color: white;
+            display: flex;
+        }
+
+        .link-container {
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            width: 80%;
+            margin: 0 auto;
+        }
+
+
+        .navlink {
+            margin: 0px 20px;
+            padding: 9px 30px;
+            font-size: 20px;
+            font-family: 'Calibre', sans-serif;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+
+        .navlink:hover {
+            margin: 0px 20px;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+        }
+
+        .generate{
+            color: black;
+            background-color:  white;
+            border-radius: 10px;
+
+        }
+
+        .generate:hover {
+            border-radius: 10px;
+            color: rgb(130, 150, 154);
+            background-color: white;
+        }
+
+        .logoText-container {
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 75px; 
+            width: 20%; 
+            margin: auto; 
+        }
+
+        .logo-text {
+            font-size: 30px;
+            font-family: fantasy;
+            position: relative;
+            bottom: 30px;
+            font-weight: 200;
+            height: 100px;
+        }
+
+        .logo {
+            margin: 8px;
+            width: 70px;
+            height: 60px;
+            border-radius: 50%;
+        }
+
+        .category-container {
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            width: 90%;
+            margin: auto; 
+            border-top: 2px solid black;
+        }
+
+        .category {
+            margin: 0px 0px;
+            padding: 9px 20px;
+            font-size: 17px;
+            font-family: 'Calibre', sans-serif;
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+        }
+
+        .category:hover {
+            margin: 0px 0px;
+            color: white;
+            background-color: black;
+        }
+
+
+        .midtext-container2{
+            margin-top: 20px;
+            padding-top: 120px;
+            font-family: Poppins, sans-serif;
+            flex-direction: column;
+            text-align: center;
+            height: 420px;
+            background-color: #fff
+        }
+
+        .greeting{
+            font-size: 65px;
+            font-family: Verdana, Tahoma, sans-serif;
+            font-weight: 700;
+        }
+
+        .slogan{
+            padding-top: 10px;
+            font-family: Verdana, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="link-container">
+            <a class="navlink home" href="Home_page.html">Home</a>
+            <a class="navlink generate" href="Generate_page.html">Generate</a>
+            <a class="navlink contact" href="Contact_page.html">Contact</a>
+        </div>
+    </nav>
+
+        <div class="logoText-container">
+            <img class="logo" src="logo.png" alt="Avatar">
+            <span class="logo-text">COOKING BUDDY</span>
+        </div>
+
+        <div class="category-container">
+            <a class="category" href="https://panlasangpinoy.com/categories/recipes/chicken-recipes/" target="_blank">Chicken</a>
+            <a class="category" href="https://panlasangpinoy.com/categories/recipes/pork-recipes/" target="_blank">Pork</a>
+            <a class="category" href="https://panlasangpinoy.com/categories/recipes/beef-recipes/" target="_blank">Beef</a>
+            <a class="category" href="https://panlasangpinoy.com/categories/recipes/fish-recipes-recipes/" target="_blank">Fish</a>
+            <a class="category" href="https://panlasangpinoy.com/categories/recipes/vegetable-recipes/" target="_blank">Vegetable</a>
+            <a class="category" href="https://panlasangpinoy.com/categories/recipes/dessert-and-pastry-recipes/" target="_blank">Dessert</a>
+        </div>
+
+        <div class="midtext-container2">
+            <div class="greeting">Generate Now</div>
+            <div class="slogan"><b>Struggling to decide what to cook?</b> Just list your ingredients, and your 
+                <br>personalized AI Buddy will generate and bring you to a website with Filipino Recipe:
+            </div>
+        </div>
+
+</body>
+</html>
